@@ -8,8 +8,7 @@ const userCheck = function (rule, value, callback) {
     callback()
   }
 }
-const cellphoneCheck = function ((rule, value, callback)
-{
+const cellphoneCheck = function (rule, value, callback) {
   let reg = regular.cellphone
   if (reg.test(reg)) {
     callback(new Error('非有效电话号码！'))
